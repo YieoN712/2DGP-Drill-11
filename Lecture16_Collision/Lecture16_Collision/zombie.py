@@ -76,5 +76,6 @@ class Zombie:
             game_world.render()
             game_over_font.draw(800, 550, "GAME OVER", (255, 0, 0))
             update_canvas()
-            delay(2)
+
+            delay(0.5)
             game_framework.quit()
